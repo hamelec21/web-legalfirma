@@ -6,6 +6,7 @@ import PorQueElegirnos from "./components/PorQueElegirnos";
 import Reseñas from "./components/Resenas";
 import PreguntasFrecuentes from "./components/Faq";
 import ContactoFooter from "./components/ContactoFooter";
+import Simulador from "./components/Simulador";
 
 export default function Home() {
   return (
@@ -52,6 +53,7 @@ export default function Home() {
         <Hero />
         <Nosotros />
         <Servicios />
+        <Simulador/>
         <PorQueElegirnos />
         <Reseñas />
         <PreguntasFrecuentes />
